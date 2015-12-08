@@ -26,7 +26,6 @@ class BinNode:
     def __init__(self,left,right):
         self.l = left
         self.r = right
-        self.parent = None
 
     def is_leaf(self):
         return False
